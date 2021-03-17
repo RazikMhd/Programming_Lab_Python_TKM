@@ -1,21 +1,12 @@
-list = []
-
-counter = 32
-end = 99
-
-while(counter<=end):
-    list.append(counter*counter)
-    counter=counter+2
-
-l_limit = int(input("Enter the starting of the range : "))
-u_limit = int(input("Enter the ending of the range : "))
-
-new_list = []
-
-for num in list:
-    if((num>l_limit)&(num<u_limit)):
-        new_list.append(num)
-
-print(new_list)
-
-
+#Generate a list of four digit numbers in a given range with all their digits even and the
+ #number is a perfect square
+lst=[]
+x = int(input("enter a four digit number = "))
+y = int(input("enter a four digit number = "))
+for i in range(x,y):
+   for j in range(32,100):
+       if i == j*j:
+           string = str(i)
+           if int(string[0])%2 == 0 and int(string[1])%2 == 0 and int(string[2])%2 == 0 and int(string[3])%2 == 0:
+               lst.append(i)
+print(lst)
