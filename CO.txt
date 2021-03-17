@@ -93,5 +93,9 @@ of the columns.
 5. Write a Python program to write a Python dictionary to a csv file. After writing the CSV file
 read the CSV file and display the content.
 
-Write a program to throw an error when the number entered is not even, use assert & try catch.
-Write a program to throw an error when the string entered is not python, use assert & try catch.
+Extra Questions. 
+
+Write a program to throw an error when the number entered is not even, use try catch.
+Write a program to throw an error when the number entered is not even, use assert.
+Write a program to throw an error when the string entered is not python, use assert.
+Write a program to throw an error when the string entered is not python, use try catch.
